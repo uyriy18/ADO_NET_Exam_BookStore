@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="c25e752a227c4fb682f4c87e20605b0c" Name="Diagram1">
+        <EntityTypeShape EntityType="BookstoreEntModel.Authors" Width="1.5" PointX="0.75" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="BookstoreEntModel.Books" Width="1.5" PointX="3" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="BookstoreEntModel.Customers" Width="1.5" PointX="3" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="BookstoreEntModel.CustomersBooks" Width="1.5" PointX="5.25" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="BookstoreEntModel.Decommissed" Width="1.5" PointX="5.25" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BookstoreEntModel.DiscountBooks" Width="1.5" PointX="8.25" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="BookstoreEntModel.Discounts" Width="1.5" PointX="6" PointY="9.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="BookstoreEntModel.Publishers" Width="1.5" PointX="0.75" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="BookstoreEntModel.Sales" Width="1.5" PointX="5.25" PointY="12.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="BookstoreEntModel.Series" Width="1.5" PointX="0.75" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="BookstoreEntModel.Themes" Width="1.5" PointX="0.75" PointY="11" IsExpanded="true" />
+        <AssociationConnector Association="BookstoreEntModel.FK__Books__AuthorId__34C8D9D1" ManuallyRouted="false" />
+        <AssociationConnector Association="BookstoreEntModel.FK__Books__Publisher__35BCFE0A" ManuallyRouted="false" />
+        <AssociationConnector Association="BookstoreEntModel.FK__Books__SeriesId__37A5467C" ManuallyRouted="false" />
+        <AssociationConnector Association="BookstoreEntModel.FK__Books__ThemeId__36B12243" ManuallyRouted="false" />
+        <AssociationConnector Association="BookstoreEntModel.FK__Customers__BookI__4D94879B" ManuallyRouted="false" />
+        <AssociationConnector Association="BookstoreEntModel.FK__Decommiss__BookI__412EB0B6" ManuallyRouted="false" />
+        <AssociationConnector Association="BookstoreEntModel.FK__DiscountB__BookI__47DBAE45" ManuallyRouted="false" />
+        <AssociationConnector Association="BookstoreEntModel.FK__Sales__BookId__3A81B327" ManuallyRouted="false" />
+        <AssociationConnector Association="BookstoreEntModel.FK__Customers__Custo__4CA06362" ManuallyRouted="false" />
+        <AssociationConnector Association="BookstoreEntModel.FK__DiscountB__Disco__46E78A0C" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
